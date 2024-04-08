@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-Learning: JEE Online Course | Vertual Learning Platform</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+          crossorigin="anonymous"
+    >
+    
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div>
+        <button class="btn btn-lg btn-block custom-btn">Login</button>
+        <button class="btn btn-lg btn-block custom-btn">Signup</button>
+    </div> -->
+
+    <div class="container-fluid p-0">
+
+        <div class="container ">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg nav-bar-sec navbar-light py-2">
+            
+                <!-- <div class="container "> -->
+        
+                    <a href="#" class="navbar-brand mx-5">
+                        <img src="/images/logo.png" alt="Logo" width="200" height="60" class="d-inline-block align-text-top">    
+                    </a>
+        
+                    <button
+                       class="navbar-toggler"
+                       type="button"
+                       data-bs-toggle="collapse"
+                       data-bs-target="#navmenu"
+                    >
+                       <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse me-5" id="navmenu"> 
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                               <a href="#" class="nav-link text-dark">Home</a>
+                            </li>
+                            <li class="nav-item">
+                               <a href="#" class="nav-link text-dark">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                               <a href="#" class="nav-link text-dark">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Faculty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Internship</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                <!-- </div> -->
+            </nav> 
+
+        </div>
+
+        <!-- Image -->
+        <div class="bg-banner w-100">
+            <img class="img-fluid p-0" src="/images/bg-img.jpg" alt="bg-img"/> 
+        </div>
+
+        <div class="container">
+
+            <!-- Form -->
+            <div class="form-section shadow-lg p-5 mb-3 py-3 bg-body-tertiary rounded bg-white text-dark ">
+                <h2 class="text-danger fw-bold fs-3 py-2">Enquiry Form</h2>
+                <form>
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control " id="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <label for="email" class="form-label"></label>
+                            <input type="email" class="form-control" id="email" placeholder="Email Id">
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <label for="number" class="form-label"></label>
+                            <input type="number" class="form-control" id="number" placeholder="Your Number">
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <select class="form-select" aria-label="Default">
+                                <option>Preffered Day To Call</option>
+                                <option value="1">Monday</option>
+                                <option value="2">Tuesday</option>
+                                <option value="3">Wednesday</option>
+                                <option value="4">Thursday</option>
+                                <option value="5">Friday</option>
+                                <option value="6">Saturday</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 w-32">
+                            <select class="form-select" aria-label="Default">
+                                <option>Preffered Time Of Call</option>
+                                <option value="1">10:00 AM To 11:00 AM</option>
+                                <option value="2">11:00 AM To 12:00 PM</option>
+                                <option value="3">12:00 PM To 01:00 PM</option>
+                                <option value="4">01:00 PM To 02:00 PM</option>
+                                <option value="5">02:00 PM To 03:00 PM</option>
+                                <option value="6">03:00 PM To 04:00 PM</option>
+                                <option value="7">04:00 PM To 05:00 PM</option>
+                                <option value="8">05:00 PM To 06:00 PM</option>
+                                <option value="9">06:00 PM To 07:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 w-32">
+                            <select class="form-select" aria-label="Default">
+                                <option>Course</option>
+                                <option value="1">PHYSICS</option>
+                                <option value="2">CUET</option>
+                                <option value="3">DIGITAL MARKETING</option>
+                                <option value="4">WEB DESIGN</option>
+                                <option value="5">ENGG DRAWING</option>
+                                <option value="6">ENGG MATHS</option>
+                                <option value="7">GENERAL APTITUDE</option>
+                                <option value="8">GENERAL STUDIES</option>
+                                <option value="9">FOREIGN LANGUAGE</option>
+                                <option value="10">COMPUTER APPLICATION</option>
+                                <option value="11">ENGLISH</option>
+                                <option value="12">CA-CPT</option>
+                                <option value="13">CLAT</option>
+                                <option value="14">CAMPUS TO CORPORATE</option>
+                                <option value="15">WEBSITE DEVELOPMENT</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 w-32"> 
+                            <select class="form-select" aria-label="Default">
+                                <option>Class</option>
+                                <option value="1">Faulty</option>
+                                <option value="2">Dropper</option>
+                                <option value="3">12th</option>
+                                <option value="4">11th</option>
+                                <option value="5">10th</option>
+                                <option value="6">9th</option>
+                                <option value="7">8th</option>
+                                <option value="8">7th</option>
+                                <option value="9">6th</option>
+                                <option value="10">Other</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 w-32">
+                            <textarea class="form-control" placeholder="Your Message" id="floatingTextarea2"></textarea>
+                        </div>
+                        <div class="col-lg-4 mb-4 w-32 border border-secondary-subtle rounded-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <button type="button" class="btn btn-danger my-3">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Show-Case -->
+            <div class="show-case-sec mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img
+                            class="img-fluid d-block"
+                            src="/images/home.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-md-6">
+                        <h3><span class="text-danger">Welcome to M learning</span></h3>
+                            <p class="fw-bold my-2 text-black fs-5">
+                                The leading virtual learning platform in India
+                            </p>
+                            <p>
+                                M learning is a platform that offers a unique and innovative approach to learning. <br> Our courses are designed to provide students with an engaging and interactive learning experience. We use the latest technologies and teaching methods to make learning more accessible and fun. <br>
+        We take pride in our team of the best teachers and professional experts who are dedicated to providing top-notch education to help students excel in their academic pursuits. <br>
+        M Learning offers a wide range of courses covering subjects such as IITJEE, NEET, CA-CPT, CLAT, English, Foreign Language, General Studies, General Aptitude, Engg. Maths, Engg. Drawing, Computer Application, and Digital Marketing. <br>
+        Our courses are designed to provide students with a comprehensive understanding of the subject matter and prepare them for some of the toughest competitive exams. <br>
+        M Learning is not just another platform for education. It is a community that fosters growth, learning, and development. We believe in providing students with a holistic education that prepares them for academic success and helps them develop skills and knowledge that will enable them to succeed in their personal and professional lives. <br>
+        Join M Learning today and experience the best of education. Let us help you achieve your academic and personal goals.
+                            </p>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Courses Offered--->
+            <div class="container text-center mt-5">
+                <h3 class="text-danger text-center fw-bold">Courses Offered</h3>
+
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/cuet.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">CUET</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/iit-jee-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">IIT-JEE</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/neet-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">NEET</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/12th-pcm.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">12TH CLASS (PCM)</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/12th-pcb.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">12TH CLASS (PCB)</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/12th-commerce.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">12TH CLASS (Commerce)</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/11th-pcm.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">11TH CLASS (PCM)</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/11th-pcb.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">11TH CLASS (PCB)</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/11th-commerce.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">11TH CLASS (Commerce)</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/10th.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">10TH CLASS</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/9th.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">9TH CLASS</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/8th.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">8TH CLASS</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/dm-course.png" alt="8th" class="w-100 rounded-4">
+                           <h3 class="text-danger text-center mt-3 mb-3 p-2">DIGITAL MARKETING</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/campustocorp.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">CAMPUS TO CORPORATE</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/clat-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">CLAT</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/cacpt.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">CA-CPT</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/english-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">ENGLISH</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/fo-language-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">FOREIGN-LANGUAGE</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/general-study-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">GENERAL STUDIES</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/general-aptitude-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">GENERAL APTITUDE</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/computer-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">COMPUTER APPLICATION</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/eng-drawing.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">ENGG. DRAWING</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer shadow rounded-4 h-100">
+                            <img src="/images/web-design-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 p-5">
+                        <div class="card courses-offer subject-card shadow rounded-4 h-100">
+                            <img src="/images/eng-maths-course.png" alt="8th" class="w-100 rounded-4">
+                            <h3 class="text-danger text-center mt-3 mb-3 p-2">ENGG. MATHS</h3>
+                        </div>
+                    </div>
+                     
+                </div>
+
+            </div>
+
+            <!-- Student-Feedback Using Swiper -->            
+            <div class="container student-feedback">
+                <div class="row">
+                    <div class="col-md-12 mt-5 mb-5">
+                        <h2 class="text-danger text-center fw-bold">Students Feedback</h2>
+
+                        <div class="swiper mySwiper">  
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="card shadow rounded-4 border border-2 text-start p-4">
+                                        <div class="stars">
+                                            <div class="star d-flex text-warning gap-1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-black pt-2 mt-1 fw-bold">Prateek Bansali</h4>
+                                        <p class="text-black mb-2">The App is doing a great job by helping student to study from home</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card shadow rounded-4 border border-2 text-start p-4 ">
+                                        <div class="stars">
+                                            <div class="star d-flex text-warning gap-1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-black pt-2 mt-1 fw-bold">Prateek Bansali</h4>
+                                        <p class="text-black mb-2">The App is doing a great job by helping student to study from home.</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card shadow rounded-4 border border-2 text-start p-4">
+                                        <div class="stars">
+                                            <div class="star d-flex text-warning gap-1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-black pt-2 mt-1 fw-bold">Prateek Bansali</h4>
+                                        <p class="text-black mb-2">The App is doing a great job by helping student to study from home</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card shadow rounded-4 border border-2 text-start p-4">
+                                        <div class="stars">
+                                            <div class="star d-flex text-warning gap-1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-black pt-2 mt-1 fw-bold">Prateek Bansali</h4>
+                                        <p class="text-black mb-2">The App is doing a great job by helping student to study from home</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card shadow rounded-4 border border-2 text-start p-4">
+                                        <div class="stars">
+                                            <div class="star d-flex text-warning gap-1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-black pt-2 mt-1 fw-bold">Prateek Bansali</h4>
+                                        <p class="text-black mb-2">The App is doing a great job by helping student to study from home</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card shadow rounded-4 border border-2 text-start p-4">
+                                        <div class="stars">
+                                            <div class="star d-flex text-warning gap-1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h4 class="text-black pt-2 mt-1 fw-bold">Prateek Bansali</h4>
+                                        <p class="text-black mb-2">The App is doing a great job by helping student to study from home</p>
+                                    </div>
+                                </div>
+                             
+                            </div>
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                            <div class="swiper-pagination"></div>
+                        </div>  
+
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- Our Pride -->
+            <div class="container text-center my-5">
+                
+                <div class="row">
+                    <div class="col-md-12 mt-2">
+                        <h3 class="text-center text-danger fw-bold my-md-4 my-sm-3">Our Pride</h3>
+                        <div class="row d-flex justify-content-center my-4">
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card text-center shadow-lg rounded-5 m-2">
+                                    <div class="row p-4">
+                                        <div class="col-5 mt-3">
+                                            <img src="/images/pride-1img.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-7">
+                                            <h3 class="text-danger fw-bold mt-4">2500+</h3>
+                                            <p class="text-black-50 fs-5 fw-bold">IITians</p>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card text-center shadow-lg rounded-5 m-2">
+                                    <div class="row p-4">
+                                        <div class="col-5 mt-3 ">
+                                            <img src="/images/pride-2img.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-7">
+                                            <h3 class="text-danger fw-bold mt-4">1500+</h3>
+                                            <p class="text-black-50 fs-5 fw-bold">Doctors</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card text-center shadow-lg rounded-5 m-2">
+                                    <div class="row p-4">
+                                        <div class="col-5 mt-3">
+                                            <img src="/images/pride-3img.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-7">
+                                            <h3 class="text-danger fw-bold mt-4">60000+</h3>
+                                            <p class="text-black-50 fs-5 fw-bold">Engineers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <!-- Footer -->
+        <div class="card bg-body-secondary mt-5 p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column mb-3 my-4"> 
+                            <img src="/images/logo.png" alt="" width="200" height="60" class="mb-2">
+                            <p class="text-black mt-3 mb-2">M Learning is India’s largest online learning. <br>
+                                Download our app to start learning
+                            </p>
+                            <h4 class="text-black fw-bold mt-4 mb-2">Starting your preparation?</h4>
+                            <p class="text-black mt-0 mb-2">Call us and we will answer all your questions about 
+                                <br> learning on M learning
+                            </p>
+                            <h5 class="text-black mt-3 mb-2"><i class="fa-solid fa-phone-volume"></i> Call +91 9827039104</h5>
+                            <div class="icons mt-3 d-flex flex-row gap-3">
+                                <a href="#"><i class="fa-brands fa-facebook-f bg-white rounded-circle p-3 "></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in bg-white rounded-circle p-3"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-instagram bg-white rounded-circle p-3"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter bg-white rounded-circle p-3"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube bg-white rounded-circle p-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div> 
+                            <div class="text-black fw-bold">Main Links</div>
+                            <hr class="text-danger w-50">
+                            <div class="d-flex flex-column mt-3 mb-3 gap-2">
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Home</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">About Us</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Careers</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Terms & Conditions</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Privacy Policy</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Contact Us</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Blog</a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div> 
+                            <div class="text-black fw-bold">Courses</div>
+                            <hr class="text-danger w-50 ">
+                            <div class="d-flex flex-column mt-3 mb-3 gap-2">
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">CUET</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">IIT JEE</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">NEET</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">CA-CPT</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">CLAT</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">English</a>
+                                <a href="#" class="text-dark link-underline link-underline-opacity-0">Foreign Language</a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="d-flex flex-column mt-5 mb-3 gap-2">
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">General Studies</a>
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">General Aptitude</a>
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">Engg. Maths</a>
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">Engg. Drawing</a>
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">Computer Applications</a>
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">Digital Marketing</a>
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">One-To-One-Home-</a> 
+                            <a href="#" class="text-dark link-underline link-underline-opacity-0">Tutions</a>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/6e8cee91b5.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous">
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

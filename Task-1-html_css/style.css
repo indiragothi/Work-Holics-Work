@@ -275,7 +275,7 @@ ul li a:hover{
 }
 
 @media screen and (max-width:1200px) {
-    /*Normal Screen*/
+    /*----Normal Screen-----*/
 
     .navbar{
         width: 100%;
@@ -324,7 +324,7 @@ ul li a:hover{
 }
 
 @media screen and (max-width:1170px) {
-    /*Login-box*/
+    /*----Login-box----*/
     .main{
         padding-left: 20px;
         height: 180vh;
